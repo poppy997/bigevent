@@ -5,3 +5,54 @@ body {
     background-size: cover;
     overflow: hidden;
 }
+
+.header {
+    width: 200px;
+    margin: 20px auto 0;
+}
+
+.loginbox {
+    width: 400px;
+    height: 310px;
+    overflow: hidden;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginbox .title {
+    width: 100%;
+    height: 60px;
+    background: url(../images/login_title.png) no-repeat;
+    background-position: center;
+}
+
+.login-form,
+.reg-form {
+    padding: 0 30px;
+}
+
+.reg-form {
+    display: none;
+}
+
+.reglink {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.layui-input {
+    padding-left: 35px!important;
+}
