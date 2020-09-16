@@ -11,7 +11,7 @@ body {
     margin: 20px auto 0;
 }
 
-.loginbox {
+.login-box {
     width: 400px;
     height: 310px;
     overflow: hidden;
@@ -22,7 +22,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.loginbox .title {
+.login-box .title {
     width: 100%;
     height: 60px;
     background: url(../images/login_title.png) no-repeat;
